@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div id="header">
+    <div class="container">
+<ul id="header-nav">
+<li><a href="index.html">Zurück zu Startseite</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>s
+    </div>
+    <div id="content">
+      <div class="container">
+        <div class="post">
+          <div class="post-author">
+            <img src="me.png">
+            <span>Abdullah</span>
+          </div>
+          <p class="post-date">          <p id="test"></p>
+                    <p class="post-date"><script>
+                    var date = new Date(2019, 10, 15, 20, 49, 10, 10);
+                document.getElementById("test").innerHTML = date.toDateString();
+              </script></p>
+</p>
+          <h3 class="post-title">Wer bin ich?
+            </h3>
+            <div class="post-content">
+              <p>Mein Name ist Abdullah und komme aus Syrien. Mein Ziel ist Informatiker zu werden, Ich interessiere und beschäftige mich mit 
+              programmieren. Die Webseite die Sie gerade sehen ist einer meiner größten Projekte.</p>
+
+                <p></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div id="footer">
+<div class="container">
+  <div class="column">
+    <h4>My Links</h4>
+    <p>
+      <a href="mailto:abdullahshaar12@gmail.com">Mail</a>
+        <br>
+      <a href="https://www.youtube.com/channel/UCWOeccL2UmivSzShjsYUuZg">Youtube</a>
+      <br>
+      <a href="https://www.instagram.com/abdullah_shaar12/?hl=de">instagram</a>
+      </p>
+    </div>
+    <div class="column">
+      <h4>Heutige Datum und Zeit<h5>(Zeit ist 1 stunde füher)</h5>
+      </h4><p id="test1"><script>
+       var date = new Date();
+      document.getElementById("test1").innerHTML = date.toUTCString();
+      </script></p>
+    </div>
+  </div>
+  </div>
+  </body>
+</html>
